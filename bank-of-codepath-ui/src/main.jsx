@@ -32,6 +32,6 @@ const renderApp = () =>
   )
 
 /* Comment out this next line to run against live Express API */
-prepareMockServiceWorker().then(() => renderApp())
+/* prepareMockServiceWorker().then(() => renderApp()) */
 /* Uncomment this next line to run against live Express API */
-// renderApp()
+renderApp()
